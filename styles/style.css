@@ -50,7 +50,8 @@ font-family: fantasy;
     grid-area: math;
 }
 .services{
-    background-image: url("https://media.giphy.com/media/l3q2vQ6rlZutXsYN2/giphy.gif");
+    background-image: url("https://media.giphy.com/media/BHv2DEk0iDiKhOJOUL/giphy.gif");
+    
     grid-area: services;
 }
 .fun {
@@ -58,11 +59,14 @@ font-family: fantasy;
     grid-area: fun;
 }
 .music{
+    background-image: url("https://media.giphy.com/media/l3q2vQ6rlZutXsYN2/giphy.gif");
     grid-area: music;
 }
 .contact {
+    background-image: url("https://media.giphy.com/media/IdgJm4MxJRFUVI0JJU/giphy.gif");
     grid-area: contact;
 }
 .footer {
+    background-image: url("https://media.giphy.com/media/2sebI6np6MGKvoOGZK/giphy.gif");
     grid-area: footer;
 }

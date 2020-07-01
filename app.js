@@ -1,4 +1,4 @@
-import {add, subtract, product, divide} from './utils.js';
+import {add, subtract, product, divide, exponent} from './utils.js';
 const addInput1 = document.getElementById('add-input-1');
 
 const addInput2 = document.getElementById('add-input-2');
@@ -58,6 +58,21 @@ divButton.addEventListener('click', ()=>{
     console.log(value2);
     const division = divide(value1, value2);
     divSpan.textContent = division;
+});
+
+const powInput1= document.getElementById('pow-input-1');
+const powInput2= document.getElementById('pow-input-2');
+const powButton= document.getElementById('pow-button');
+const powSpan=document.getElementById('pow-result');
+
+powButton.addEventListener('click', () =>{
+    const value1 = powInput1.value;
+    const value2= powInput2.value;
+    console.log(value1);
+    console.log(value2);
+    const power = exponent (value1, value2);
+    powSpan.textContent = power;
+    
 });
 
 
