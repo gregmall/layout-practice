@@ -1,0 +1,68 @@
+.header {
+    text-align: center;
+    background-image: url("https://media.giphy.com/media/4N7v7t0x6qamzxG6FB/giphy.gif");
+    height: 125px;
+    font-size: 70px;
+    font-family: cursive;
+
+}
+.body {
+    background: #1C6EA4;
+background: -moz-radial-gradient(center, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
+background: -webkit-radial-gradient(center, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
+background: radial-gradient(ellipse at center, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
+text-align: center;
+font-family: fantasy;
+}
+.border {
+    border: 2px outset #000000;
+}
+.container{
+    display: grid;
+    max-width: 900px
+    margin: auto;
+    grid-gap: 10px;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: 150px 200px 600px 200px;
+    grid-template-areas: "nav nav nav"
+                         "info math services"
+                         "fun math services"
+                         "music math services"
+                         "music math contact"
+                         "footer footer footer";
+
+}
+.nav {
+    
+    background-image: url("https://media.giphy.com/media/ZO7vWwaYmeHt8XnZxj/giphy.gif");
+    background-size: 100% auto;
+    grid-area: nav;
+}
+.info {
+    color: greenyellow;
+    background-image: url("https://media.giphy.com/media/wJs5HcrwIhohGub5m9/giphy.gif");
+    grid-area: info;
+}
+.math {
+    font-size: 40px;
+    color: white;
+    background-image: url("https://media.giphy.com/media/ohONS2y8GTDoI/giphy.gif");
+    grid-area: math;
+}
+.services{
+    background-image: url("https://media.giphy.com/media/l3q2vQ6rlZutXsYN2/giphy.gif");
+    grid-area: services;
+}
+.fun {
+    background-image: url("https://media.giphy.com/media/4GXNdzsOcVR0aZl7mT/giphy.gif");
+    grid-area: fun;
+}
+.music{
+    grid-area: music;
+}
+.contact {
+    grid-area: contact;
+}
+.footer {
+    grid-area: footer;
+}
